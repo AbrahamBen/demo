@@ -1,0 +1,146 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Conteneur principal */
+.cv-container {
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Barre latérale */
+.sidebar {
+    width: 30%;
+    background: #e6b8b7;
+    padding: 20px;
+    color: white;
+}
+
+/* Photo */
+.photo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Titres */
+h3 {
+    background: #d19493;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Profil & Compétences */
+.profil p,
+.contact p {
+    margin: 10px 0;
+}
+
+/* Liste compétences */
+.competences ul {
+    padding: 0;
+    list-style: none;
+}
+
+.competences li {
+    margin-bottom: 5px;
+}
+
+/* Langues */
+.langues p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.langues .bar-container {
+    width: 60%;
+    height: 8px;
+    background: #d8a7a3;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.langues .bar {
+    height: 100%;
+    background: white;
+    border-radius: 5px;
+}
+
+/* Différents niveaux de compétence */
+.full {
+    width: 100%;
+}
+
+.medium {
+    width: 70%;
+}
+
+.low {
+    width: 40%;
+}
+
+/* Contenu principal */
+.content {
+    width: 70%;
+    padding: 30px;
+}
+
+/* En-tête */
+header {
+    background: #5d4037;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Sections */
+.formation,
+.experience {
+    margin-bottom: 20px;
+}
+
+.formation h3,
+.experience h3 {
+    background: #e6b8b7;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job h4 {
+    color: #5d4037;
+}
+
+.job p {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.job ul {
+    padding-left: 20px;
+}
